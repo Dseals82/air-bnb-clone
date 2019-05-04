@@ -37,8 +37,12 @@ body {
 
 }
 
+.header-form-inner {
+  margin-left: 1.5rem;
+}
+
 .h1-form {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-weight: 700;
 }
 
@@ -49,12 +53,15 @@ body {
 .form-button {
   background-color: #CC2A36;
   border-color: #CC2A36 !important;
+  font-weight: bold;
+  margin-right: 7rem;
 }
 
 .form-button:hover,
 .form-button:focus,
 .form-button:active,
 .form-button:active,
+.open>.dropdown-toggle..form-button
  {
     color: white;
     background-color: #CC2A36;
@@ -89,6 +96,7 @@ body {
 
 .h1-footer {
   padding: 2rem;
+  margin-top: 2rem;
   font-weight: lighter;
 }
 
@@ -98,7 +106,7 @@ body {
 
 .barcelona {
   margin-top: -2rem;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 #barcelona {

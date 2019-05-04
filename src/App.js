@@ -8,14 +8,16 @@ function App() {
       <div className="container ">
         <div className="row">
           <div className="col-4">
-          <div className="header-form card ;">
-            <h1 className="h1-form">Earn money as an Airbnb host</h1>
+          <div className="header-form card">
+          <div className="header-form-inner">
+            <h1 className="h1-form">Earn money as <br/> an Airbnb <br/> host</h1>
             <p className="p-form">
               From saving for home repairs to
-              taking a dream trip, hosts use extra
-              income to fund thir passions
+              taking <br/> a dream trip, hosts use extra
+              income to <br/> fund thir passions
             </p>
             <button className="form-button btn btn-danger btn-lg">See How it Works</button>
+          </div>
           </div>
           </div>
 
