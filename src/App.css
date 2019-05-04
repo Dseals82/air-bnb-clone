@@ -32,7 +32,7 @@ body {
   padding: 2rem;
   margin-left: 2rem;
   margin-top: -6rem;
-  background: #03A0B0;
+  background: #314B5A;
   color: white;
 
 }
@@ -71,7 +71,9 @@ body {
 .big-ol-btn {
   padding: 1rem;
   width: 100%;
-  background-color: #03A0B0;
+  background-color: #314B5A;
+  text-align: center;
+  color: white;
 }
 
 .big-ol-btn:hover,
@@ -80,8 +82,8 @@ body {
 .big-ol-btn:active,
 .open>.dropdown-toggle..big-ol-btn {
     color: white;
-    background-color: #03A0B0;
-    border-color: #03A0B0;
+    background-color: #314B5A;
+    border-color: #314B5A;
 }
 
 #top-input-one{
@@ -110,5 +112,5 @@ body {
 }
 
 #barcelona {
-  color: #03A0B0;
+  color: #314B5A;
 }

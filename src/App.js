@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="jumbotron jumbotron-fluid ">
-      <div className="container ">
+      <div className="container">
         <div className="row">
           <div className="col-4">
           <div className="header-form card">
@@ -14,7 +14,7 @@ function App() {
             <p className="p-form">
               From saving for home repairs to
               taking <br/> a dream trip, hosts use extra
-              income to <br/> fund thir passions
+              income to <br/> fund their passions
             </p>
             <button className="form-button btn btn-danger btn-lg">See How it Works</button>
           </div>
@@ -64,7 +64,7 @@ function App() {
         </div>
         </div>
         <div className="col-4">
-          <button type="button" className=" big-ol-btn btn btn-info btn-lg"><h1><i class="fas fa-pound-sign"></i> 597</h1><p>weekly average <i class="far fa-question-circle"></i></p></button>
+          <button type="button" className=" big-ol-btn btn  btn-lg"><h1><i class="fas fa-pound-sign"></i> 597</h1><p>weekly average <i class="far fa-question-circle"></i></p></button>
         </div>
         </div>
         </div>
