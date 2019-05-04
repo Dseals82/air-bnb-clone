@@ -15,7 +15,7 @@ function App() {
               taking a dream trip, hosts use extra
               income to fund thir passions
             </p>
-            <button className="form-button btn btn-primary btn-lg">See How it Works</button>
+            <button className="form-button btn btn-danger btn-lg">See How it Works</button>
           </div>
           </div>
 
@@ -26,6 +26,7 @@ function App() {
           </div>
         </div>
         <div className="container">
+        <h1 className="barcelona">What you could earn in <span id="barcelona">Barcelona</span></h1>
         <div className="row">
         <div className="col-8">
         <div className="row">
@@ -61,12 +62,12 @@ function App() {
         </div>
         </div>
         <div className="col-4">
-          <button type="button" className=" big-ol-btn btn btn-primary btn-lg"><h1><i class="fas fa-pound-sign"></i> 597</h1><p>weekly average <i class="far fa-question-circle"></i></p></button>
+          <button type="button" className=" big-ol-btn btn btn-info btn-lg"><h1><i class="fas fa-pound-sign"></i> 597</h1><p>weekly average <i class="far fa-question-circle"></i></p></button>
         </div>
         </div>
         </div>
         <div>
-          <h1 className="h1-footer" align="center">How Hosting works</h1>
+          <h1 className="h1-footer" align="center">How Hosting Works</h1>
         </div>
 
     </div>

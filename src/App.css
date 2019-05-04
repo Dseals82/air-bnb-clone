@@ -32,6 +32,8 @@ body {
   padding: 2rem;
   margin-left: 2rem;
   margin-top: -6rem;
+  background: #03A0B0;
+  color: white;
 
 }
 
@@ -45,12 +47,34 @@ body {
 }
 
 .form-button {
+  background-color: #CC2A36;
+  border-color: #CC2A36 !important;
+}
 
+.form-button:hover,
+.form-button:focus,
+.form-button:active,
+.form-button:active,
+ {
+    color: white;
+    background-color: #CC2A36;
+    border-color: #CC2A36;
 }
 
 .big-ol-btn {
-  padding: 3rem;
+  padding: 1rem;
   width: 100%;
+  background-color: #03A0B0;
+}
+
+.big-ol-btn:hover,
+.form-button:focus,
+.big-ol-btn:active,
+.big-ol-btn:active,
+.open>.dropdown-toggle..big-ol-btn {
+    color: white;
+    background-color: #03A0B0;
+    border-color: #03A0B0;
 }
 
 #top-input-one{
@@ -62,6 +86,7 @@ body {
 
 }
 
+
 .h1-footer {
   padding: 2rem;
   font-weight: lighter;
@@ -69,4 +94,13 @@ body {
 
 .container-bottom {
   margin-left: 2rem;
+}
+
+.barcelona {
+  margin-top: -2rem;
+  padding: 2rem;
+}
+
+#barcelona {
+  color: #03A0B0;
 }
