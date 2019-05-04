@@ -108,7 +108,9 @@ body {
 
 .barcelona {
   margin-top: -2rem;
+  margin-left: -1rem;
   padding: 3rem;
+  color: #3d4447;
 }
 
 #barcelona {
