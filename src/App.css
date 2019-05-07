@@ -13,6 +13,11 @@ body {
   height: 26rem;
 }
 
+.radio-group {
+  line-height: 2rem;
+
+
+}
 
 .main-text {
   margin-top: 4rem;
@@ -74,7 +79,7 @@ body {
   background-color: #314B5A;
   text-align: center;
   color: white;
-  
+
 }
 
 .big-ol-btn:hover,
