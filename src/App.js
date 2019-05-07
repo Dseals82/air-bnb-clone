@@ -32,7 +32,7 @@ function App() {
         <div className="row">
         <div className="col-8">
         <div className="row">
-          <div className="col container-bottom">
+          <div className="col container-bottom radio-group">
           <div className="form-check">
           <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked/>
           <label className="form-check-label" for="exampleRadios1">
@@ -52,7 +52,7 @@ function App() {
           </label>
           </div>
           </div>
-          <div className="col">
+          <div className="col-md lower-form-group">
             <input id="top-input-one" className="form-control" type="text" placeholder="e.g San Fransisco"/>
             <select id="top-input-two" className="form-control">
               <option>1 Guest</option>
@@ -63,7 +63,7 @@ function App() {
           </div>
         </div>
         </div>
-        <div className="col-4">
+        <div className="col-4-md">
           <button type="button" className=" big-ol-btn btn  btn-lg"><h1><i class="fas fa-pound-sign"></i> 597</h1><p>weekly average <i class="far fa-question-circle"></i></p></button>
         </div>
         </div>

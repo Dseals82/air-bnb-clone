@@ -70,10 +70,11 @@ body {
 
 .big-ol-btn {
   padding: 1rem;
-  width: 100%;
+  width: 20rem;
   background-color: #314B5A;
   text-align: center;
   color: white;
+  
 }
 
 .big-ol-btn:hover,
@@ -117,6 +118,73 @@ body {
   color: #314B5A;
 }
 
+.form-check-label {
+  font-weight: bold;
+}
+
 span {
   font-weight: 700;
+}
+
+
+/* media query */
+
+/* mobile */
+@media (min-width: 596px) {
+
+}
+/* desktop */
+@media (max-width: 600px) {
+  .header-form {
+    width: 20rem;
+    height: 25rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-top: -6rem;
+    background: #314B5A;
+    color: white;
+
+  }
+  .h1-form {
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .p-form {
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .barcelona {
+    margin-top: -3rem;
+    margin-left: -1rem;
+    padding: 3rem;
+    color: #3d4447;
+    text-align: center;
+    font-size: 2rem;
+  }
+  #barcelona {
+    color: #314B5A;
+    font-size: 4rem;
+  }
+  .radio-group {
+    font-size: 27px;
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+
+  }
+  .lower-form-group {
+    margin-right: -10rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+
+  }
+  .big-ol-btn {
+    /* display: none; */
+    margin-left: 2rem;
+
+  }
 }
