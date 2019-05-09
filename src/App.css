@@ -206,9 +206,17 @@ span {
 @media only screen and (max-width: 600px) {
   .big-ol-btn {
     /* display: none; */
-
     width: 100vw;
-
+    margin-left: 0;
+    
+  }
+  .jumbotron {
+    width: 100%;
 
   }
+  .header-form {
+    margin-left: 10px;
+
+  }
+
 }
