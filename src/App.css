@@ -208,15 +208,16 @@ span {
     /* display: none; */
     width: 100vw;
     margin-left: 0;
-    
+
   }
   .jumbotron {
-    width: 100%;
+    width: 100vw;
 
   }
   .header-form {
     margin-left: 10px;
 
   }
+
 
 }
